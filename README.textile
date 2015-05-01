@@ -1,0 +1,8 @@
+Reproduce the error like so:
+
+# @bundle install@ / @bundle update@
+# @bundle exec middleman build@
+# Note hashes of created files: @ls build/fonts/lato/*@
+** eg. **lato-regular-webfont-3a4a7ca5.woff2** and **lato-regular-webfont-fc3b4caf.woff**
+# Compare hashes to the ones referenced: @grep 'woff' build/stylesheets/fonts-*.css@ 
+** eg. **lato-regular-webfont-fc3b4caf.woff2** and **lato-regular-webfont-fc3b4caf.woff**

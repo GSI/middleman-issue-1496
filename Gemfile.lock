@@ -1,6 +1,7 @@
 GIT
   remote: git://github.com/middleman/middleman.git
   revision: 56c7ef79052eff782efb00e6f202553352c1267c
+  ref: 56c7ef79052eff782efb00e6f202553352c1267c
   branch: v3-stable
   specs:
     middleman (3.3.11)
